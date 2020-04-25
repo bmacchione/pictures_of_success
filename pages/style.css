@@ -1,0 +1,130 @@
+#container {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav content";
+    grid-template-rows: 125px 1fr;
+    grid-template-columns: 200px 1fr;
+  }
+  #container2 {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "body";
+    grid-template-rows: 150px repeat(auto-fill, minmax(60px, 1fr));
+  }
+  .img-pretty {
+    max-width: 60%;
+    height: auto;
+  }
+  .img-pretty2 {
+    max-width: 70%;
+    height: auto;
+  }
+  h1 {
+    text-decoration: line-through;
+    text-decoration-color: white;
+    font-family: 'Josefin Slab', serif;
+    font-size: 200%;
+    position: absolute;
+    left: 80%;
+    transform: translate(-80%, 0%);
+  }
+  .bw {
+    text-decoration-color: rgb(22, 22, 22);
+    color: white;
+  }
+  header {
+    grid-area: header;
+    margin: 1vw;
+  }
+  nav {
+    grid-area: nav;
+    margin-left: 1rem;
+  }
+  main {
+    grid-area: content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bw-background {
+    background-color: rgb(22, 22, 22);
+  }
+  .thin-border {
+    border-color:white;
+    border-width: 1vw;
+    border-style: solid;
+  }
+  h2 {
+    font-family: 'Josefin Slab', serif;
+    justify-self: center;
+    margin-bottom: 5%;
+    font-size: 175%;
+  }
+  .img-center {
+    justify-self: center;
+    margin-bottom: 5%;
+  }
+  p {
+    justify-self: center;
+    font-family: 'Lato', sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    font-size: 125%;
+    line-height: 1.5;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  .nav-link {
+    font-family: 'Josefin Slab', serif;
+    justify-self: center;
+    font-size: 2vw;
+    text-decoration: none;
+  }
+  .nav-heading {
+    font-family: 'Josefin Slab', serif;
+    justify-self: center;
+    font-size: 2.5vw;
+    text-decoration: underline;
+  }
+  .intro-margin {
+    margin-left: -15%;
+  }
+  .v1 {
+  border-right: 2px solid black;
+  height: auto;
+}
+@media (max-width: 450px) {
+  h1 {
+    font-size: 125%;
+    position: relative;
+    text-align: end;
+  }
+  h2 {
+    font-size: 125%;
+  }
+  p {
+    font-size: 100%;
+  }
+  .img-pretty {
+    max-width: 85%;
+  }
+  .img-pretty2 {
+    max-width: 100%;
+    height: auto;
+  }
+  #container {
+    grid-template-rows: 90px 1fr;
+    grid-template-columns: 90px 1fr;
+  }
+  .nav-heading {
+    font-size: 100%;
+  }
+  .nav-link {
+    font-size: 75%;
+  }
+}
