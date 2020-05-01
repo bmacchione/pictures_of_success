@@ -71,6 +71,12 @@
     margin-bottom: 5%;
     font-size: 175%;
   }
+  h3 {
+    font-family: 'Josefin Slab', serif;
+    justify-self: center;
+    margin-bottom: 5%;
+    font-size: 150%;
+  }
   .img-center {
     justify-self: center;
     margin-bottom: 5%;
@@ -106,7 +112,10 @@
   .v1 {
   border-right: 2px solid black;
   height: auto;
-}
+  }
+  .pn-links {
+    margin-top: 7%;
+  }
 @media (max-width: 450px) {
   h1 {
     font-size: 125%;
@@ -115,6 +124,13 @@
   }
   h2 {
     font-size: 125%;
+  }
+  h3 {
+    font-size: 125%;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    text-align: start;
   }
   p {
     font-size: 110%;
