@@ -59,3 +59,21 @@
       text-align: left;
     }
   }
+  @media screen and (max-width: 1100px) and (min-width: 650px) {
+    a {
+      position: relative;
+      text-align: left;
+    }
+    h1 {
+      position: relative;
+      text-align: end;
+      margin-right: 45%;
+      font-size: 200%;
+    }
+    h2 {
+      font-size: 150%;
+    }
+    .img-pretty {
+      max-width: 60%;
+    }
+  }
