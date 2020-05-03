@@ -14,7 +14,7 @@
     grid-template-rows: 150px repeat(auto-fill, minmax(60px, 1fr));
   }
   .img-pretty {
-    max-width: 60%;
+    max-width: 65%;
     height: auto;
   }
   .img-pretty2 {
@@ -108,6 +108,7 @@
   }
   .intro-margin {
     margin-left: -15%;
+    margin-top: -3%;
   }
   .v1 {
   border-right: 2px solid black;
@@ -127,7 +128,7 @@
   }
   h4 {
     font-size: 120%;
-    position: fixed;
+    position: absolute;
     top: 5px;
     left: 5px;
     text-align: start;
@@ -162,5 +163,44 @@
   }
   .intro-margin {
     margin-left: 0;
+  }
+}
+@media screen and (max-width: 1100px) and (min-width: 650px) {
+  h1 {
+    font-size: 160%;
+    position: relative;
+    text-align: end;
+  }
+  p {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .img-pretty {
+    max-width: 95%;
+  }
+  .img-pretty2 {
+    max-width: 95%;
+  }
+  .img-pretty3 {
+    max-width: 65%;
+  }
+  .intro-margin {
+    margin-left: 0;
+  }
+  .nav-heading {
+    font-size: 160%;
+  }
+  .nav-link {
+    font-size: 125%;
+  }
+  h4 {
+    font-size: 150%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: start;
+  }
+  h2 {
+    font-size: 160%;
   }
 }
